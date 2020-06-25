@@ -1,0 +1,101 @@
+/* CARDS */
+
+.section-one {
+  margin: 0 1.5rem;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.card {
+  text-align: center;
+  padding: 1.5rem 0;
+  border-radius: .4rem;
+  background: var(--Light-Grayish-Blue);
+  margin-bottom: 2rem;
+
+}
+
+.card__sociales-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.name {
+  font-size: .7rem;
+  font-weight: 700;
+  margin-left: .1rem;
+}
+
+.social-media {
+  margin: 0 .5rem 0 0;
+}
+
+.card__followers {
+  margin: 1rem 0 1.6rem 0;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: var(--Very-Dark-Blue);
+}
+
+.card__followers .text {
+  letter-spacing: .2rem;
+  font-size: .6rem;
+}
+
+
+.card__date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-right: .3rem;
+} 
+
+.date {
+  color: var(--Lime-Green);
+  font-size: .6rem;
+  font-weight: 700;
+  position: relative;
+}
+
+
+.b-facebook {
+  border-top: .4rem solid var(--Facebook);
+}
+
+.b-twitter {
+  border-top: .4rem solid var(--Twitter);
+}
+
+.instagram {
+  position: relative;
+}
+
+.b-instagram {
+  position: absolute;
+  top: -.4rem;
+  left: 0;
+  width: 100%;
+  height: .4rem;
+  background-image: linear-gradient(to right, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%);
+  border-radius: .4rem .4rem 0 0; 
+}
+
+.b-youtube {
+  border-top: .4rem solid var(--YouTube);
+}
+
+.down {
+  color: var(--Bright-Red);
+} 
+
+
