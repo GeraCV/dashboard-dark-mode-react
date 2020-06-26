@@ -1,0 +1,10 @@
+.cuadro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 14rem;
+  background: var(--Very-Pale-Blue);
+  z-index: -1;
+  border-radius: 0 0 1rem 1rem;
+} 

@@ -1,0 +1,86 @@
+/* CARD OVERVIEW */
+
+
+
+.overview {
+  margin:1.5rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.section-two {
+  margin: 0 1.5rem;
+}
+
+.card__overview {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  padding: 1rem;
+  border-radius: .4rem;
+  background: var(--Light-Grayish-Blue);
+  margin-bottom: 1.5rem;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.pages__view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-weight: 700;
+  font-size:  .7rem;
+  margin: .4rem 0;
+}
+
+.number {
+  font-weight: 700;
+  font-size:  1.5rem;
+  margin: var(--margin-over-view);
+  color: var(--Very-Dark-Blue);
+  }
+
+.sociales__overview { 
+  /* border: 1px solid blue; */
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.social-media {
+  margin: var(--margin-over-view);
+}
+
+.percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--margin-over-view);
+}
+
+.icon {
+  margin: var(--margin-over-view);
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-size: .7rem;
+  font-weight: 700;
+  color: var(--Lime-Green);
+}
+
+
+.youtube .text {
+  color: var(--Bright-Red);
+}
+
+.percentage .down {
+  color: var(--Bright-Red);
+}
